@@ -1,0 +1,28 @@
+:root {
+    --dusk-blue: #4e598cff;
+    --onyx: #000f08ff;
+    --pale-sky: #ccdde2ff;
+    --deep-crimson: #931f1dff;
+    --dark-emerald: #0f6c2bff;
+}
+body {
+    background-color: var(--onyx);
+}
+h1, h2, p{
+   color: var(--pale-sky); 
+}
+a {
+    color: var(--dusk-blue);
+    text-decoration: none;
+    border-bottom: 1px solid var(--dusk-blue);
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    color: var(--dark-emerald);
+    border-bottom: 1px solid var(--dark-emerald);
+}
+
+a:visited {
+    color: var(--deep-crimson);
+}
